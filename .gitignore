@@ -1,6 +1,7 @@
 demo/
 gs-rest-service/
 PetClinic/
+spring5-di-demo-di-assignment/
 /target/
 /log/
 !.mvn/wrapper/maven-wrapper.jar

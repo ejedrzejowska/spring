@@ -47,7 +47,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:ejedrzejowska/spring/spring-pet-clinic.git</developerConnection>
+        <developerConnection>scm:git:https://github.com/ejedrzejowska/spring.git</developerConnection>
       <tag>spring-pet-clinic-0.0.1</tag>
   </scm>
 

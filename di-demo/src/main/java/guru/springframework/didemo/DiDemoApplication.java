@@ -6,10 +6,13 @@ import guru.springframework.didemo.controllers.PropertyInjectedController;
 import guru.springframework.didemo.controllers.SetterInjectedController;
 import jdk.nashorn.internal.objects.annotations.Setter;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+//@ComponentScan(basePackages = {"guru.services", "guru.springframework"}) //można nadpisać defaultowy scan
 public class DiDemoApplication {
 
     public static void main(String[] args) {
